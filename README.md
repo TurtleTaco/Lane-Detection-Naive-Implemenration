@@ -30,22 +30,22 @@ The goals / steps of this project are the following:
 The pipeline has 5 major steps for image lane identification.
 1. Image is loaded with mpimg.imread()
 <img align="left" src="./intermediate_results/original.png">
-<br />
+<br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
 2. Converting the image into grayscale using grayscale(image)
 <img align="left" src="./intermediate_results/gray.png">
-<br />
+<br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
 3. Applying Gaussian Blur to the grayscaled image
 <img align="left" src="./intermediate_results/blur.png">
-<br />
+<br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
 4. Applying Canny edge detection
 <img align="left" src="./intermediate_results/canny.png">
-<br />
+<br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
 5. Hard code a mask that applies to the specific dataset provided in this assignment
 <img align="left" src="./intermediate_results/masked.png">
-<br />
+<br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
 6. Creating overlay, highlighting the lane with red mark and create an overlay effect with cv2.addWeighted() function.
 <img align="left" src="./intermediate_results/overlay.png">
-<br />
+<br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
 
 In order to connect all the line segments on left and right, I modified draw_lines() function by getting the two "extreme points" from all line segments generated in a single run. These two "extreme points" corresponds to the left/right lane buttom and left/right lane top points.
 
