@@ -29,7 +29,7 @@ The goals / steps of this project are the following:
 
 The pipeline has 5 major steps for image lane identification.
 1. Image is loaded with mpimg.imread()
-![alt text][image5]
+<img align="left" src=[image5]>
 2. Converting the image into grayscale using grayscale(image)
 ![alt text][image1]
 3. Applying Gaussian Blur to the grayscaled image
